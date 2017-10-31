@@ -6,6 +6,7 @@ dramedy = "'What We do in the Shadows'"
 responses = ""
 
 # Checks to see proper answer and combines them
+# 1 is YES 2 is NO
 def check_answer
 	answer = gets.chomp
 	if(answer != "yes" && answer != "no")
